@@ -9,6 +9,7 @@ var player1score = 0;
 var player2score = 0;
 var showingWinScreen = false;
 
+//height for paddle
 var paddle1Y = 250;
 var paddle2Y = 250;
 
@@ -16,6 +17,8 @@ const WINNING_SCORE = 3 ;
 const PADDLE_HEIGHT = 100;
 const PADDLE_THINKNESS = 10;
 
+
+/* main function */
 window.onload = function(params){
 
     canvas = document.getElementById('gameCanvas');
@@ -34,6 +37,7 @@ window.onload = function(params){
     });
 }
 
+/* reset the ball position when goal */
 function ballReset()
 {
     if(player1score>=WINNING_SCORE || player2score>=WINNING_SCORE)
