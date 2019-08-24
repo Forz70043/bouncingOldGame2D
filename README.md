@@ -1,2 +1,2 @@
 # bouncingOldGame2D
-old game replicated in js &amp; html
+old game bouncing-ball replicated in js &amp; html
