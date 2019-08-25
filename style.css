@@ -1,0 +1,12 @@
+.panel{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    margin-right: 30rem;
+    margin-left: 10rem;
+}
+.gameCanvas {
+    visibility: hidden;
+}
+.form-control {
+    width: 30% !important;
+}
