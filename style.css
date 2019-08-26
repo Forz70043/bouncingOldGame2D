@@ -5,8 +5,8 @@
     margin-left: 10rem;
 }
 .gameCanvas {
-    visibility: hidden;
+    display: none;
 }
 .form-control {
-    width: 30% !important;
+    width: 38% !important;
 }
